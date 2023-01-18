@@ -16,6 +16,11 @@ class SendGiftVC: UIViewController {
     }
     
 
+    @IBAction func backTapped(_ sender: UITapGestureRecognizer) {
+        
+        self.dismiss(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

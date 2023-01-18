@@ -22,6 +22,8 @@
 		6A9A6F752977DCBA00047163 /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F742977DCBA00047163 /* RoundedCornerView.swift */; };
 		6A9A6F7A2977E44C00047163 /* TransactionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F782977E44B00047163 /* TransactionsCell.swift */; };
 		6A9A6F7B2977E44D00047163 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A9A6F792977E44C00047163 /* TransactionsCell.xib */; };
+		6A9A6F7E2977E7A200047163 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F7D2977E7A200047163 /* Transaction.swift */; };
+		6A9A6F80297801B100047163 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F7F297801B100047163 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		6A9A6F742977DCBA00047163 /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
 		6A9A6F782977E44B00047163 /* TransactionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsCell.swift; sourceTree = "<group>"; };
 		6A9A6F792977E44C00047163 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		6A9A6F7D2977E7A200047163 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		6A9A6F7F297801B100047163 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 		6A081561297738F50043D4A6 /* GiftPesa */ = {
 			isa = PBXGroup;
 			children = (
+				6A9A6F7C2977E77C00047163 /* Models */,
 				6A9A6F762977E3E800047163 /* Home */,
 				6A9A6F732977DC6400047163 /* CustomViews */,
 				6A9A6F6C29773EFB00047163 /* ViewControllers */,
@@ -156,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				6A9A6F742977DCBA00047163 /* RoundedCornerView.swift */,
+				6A9A6F7F297801B100047163 /* CustomTextField.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -175,6 +181,14 @@
 				6A9A6F792977E44C00047163 /* TransactionsCell.xib */,
 			);
 			path = Transactions;
+			sourceTree = "<group>";
+		};
+		6A9A6F7C2977E77C00047163 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A9A6F7D2977E7A200047163 /* Transaction.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,10 +327,12 @@
 				6A9A6F6E29773F5800047163 /* HomeVC.swift in Sources */,
 				6A9A6F7A2977E44C00047163 /* TransactionsCell.swift in Sources */,
 				6A9A6F7229773F9000047163 /* SendGiftVC.swift in Sources */,
+				6A9A6F80297801B100047163 /* CustomTextField.swift in Sources */,
 				6A081563297738F50043D4A6 /* AppDelegate.swift in Sources */,
 				6A081565297738F50043D4A6 /* SceneDelegate.swift in Sources */,
 				6A9A6F7029773F7400047163 /* MerchantsVC.swift in Sources */,
 				6A9A6F752977DCBA00047163 /* RoundedCornerView.swift in Sources */,
+				6A9A6F7E2977E7A200047163 /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
