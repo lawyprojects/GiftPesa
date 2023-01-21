@@ -1,0 +1,6 @@
+framework module Pods_GiftPesa {
+  umbrella header "Pods-GiftPesa-umbrella.h"
+
+  export *
+  module * { export * }
+}

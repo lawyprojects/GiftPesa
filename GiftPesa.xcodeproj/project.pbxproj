@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632761FDF7EBA6E997E75F52 /* Pods_GiftPesaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC24B3626D44FB1C7EA3743 /* Pods_GiftPesaTests.framework */; };
 		6A081563297738F50043D4A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A081562297738F50043D4A6 /* AppDelegate.swift */; };
 		6A081565297738F50043D4A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A081564297738F50043D4A6 /* SceneDelegate.swift */; };
 		6A081567297738F50043D4A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A081566297738F50043D4A6 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		6A08157A297738FA0043D4A6 /* GiftPesaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A081579297738FA0043D4A6 /* GiftPesaTests.swift */; };
 		6A081584297738FA0043D4A6 /* GiftPesaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A081583297738FA0043D4A6 /* GiftPesaUITests.swift */; };
 		6A081586297738FA0043D4A6 /* GiftPesaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A081585297738FA0043D4A6 /* GiftPesaUITestsLaunchTests.swift */; };
+		6A53A474297AADAB002EF813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A081562297738F50043D4A6 /* AppDelegate.swift */; };
+		6A53A475297AADAC002EF813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A081562297738F50043D4A6 /* AppDelegate.swift */; };
 		6A9A6F6E29773F5800047163 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F6D29773F5800047163 /* HomeVC.swift */; };
 		6A9A6F7029773F7400047163 /* MerchantsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F6F29773F7400047163 /* MerchantsVC.swift */; };
 		6A9A6F7229773F9000047163 /* SendGiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F7129773F9000047163 /* SendGiftVC.swift */; };
@@ -24,6 +27,25 @@
 		6A9A6F7B2977E44D00047163 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A9A6F792977E44C00047163 /* TransactionsCell.xib */; };
 		6A9A6F7E2977E7A200047163 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F7D2977E7A200047163 /* Transaction.swift */; };
 		6A9A6F80297801B100047163 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F7F297801B100047163 /* CustomTextField.swift */; };
+		6A9A6F83297809EF00047163 /* MerchantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F82297809EF00047163 /* MerchantsView.swift */; };
+		6A9A6F8529780A0500047163 /* MerchantsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A9A6F8429780A0500047163 /* MerchantsView.xib */; };
+		6A9A6F8929780C6700047163 /* MerchantsSelectedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F8729780C6700047163 /* MerchantsSelectedCell.swift */; };
+		6A9A6F8A29780C6700047163 /* MerchantsSelectedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A9A6F8829780C6700047163 /* MerchantsSelectedCell.xib */; };
+		6A9A6F8C29780DD800047163 /* Merchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F8B29780DD800047163 /* Merchant.swift */; };
+		6A9A6F912978160200047163 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F8E2978160100047163 /* APIService.swift */; };
+		6A9A6F922978160200047163 /* APIServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F8F2978160100047163 /* APIServiceRequest.swift */; };
+		6A9A6F932978160200047163 /* APIServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6F902978160100047163 /* APIServiceResponse.swift */; };
+		6AA1B552297B48A50017D19E /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA1B551297B48A50017D19E /* ContactsVC.swift */; };
+		6AA1B557297B492D0017D19E /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA1B555297B492D0017D19E /* ContactCell.swift */; };
+		6AA1B558297B492D0017D19E /* ContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AA1B556297B492D0017D19E /* ContactCell.xib */; };
+		6AA1B55A297BC7090017D19E /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA1B559297BC7090017D19E /* Contact.swift */; };
+		6AE728272979931F00E211EB /* AddMerchantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE728252979931F00E211EB /* AddMerchantCell.swift */; };
+		6AE728282979931F00E211EB /* AddMerchantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AE728262979931F00E211EB /* AddMerchantCell.xib */; };
+		6AE7282B29799CFA00E211EB /* MerchantsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE7282A29799CFA00E211EB /* MerchantsViewModel.swift */; };
+		6AE7282E29799DC500E211EB /* DataBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE7282D29799DC500E211EB /* DataBind.swift */; };
+		6AE72830297A77C100E211EB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE7282F297A77C100E211EB /* CustomButton.swift */; };
+		970A2BC650015F30FAC74B96 /* Pods_GiftPesa_GiftPesaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7F24D46DE9A8DC84F1E298 /* Pods_GiftPesa_GiftPesaUITests.framework */; };
+		FC5D7705FDDA5BDBB6AC09CA /* Pods_GiftPesa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D3CE12CD957DAB83E1C0B4 /* Pods_GiftPesa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +66,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A5962AFA033AEFD1A630E6F /* Pods-GiftPesa-GiftPesaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftPesa-GiftPesaUITests.release.xcconfig"; path = "Target Support Files/Pods-GiftPesa-GiftPesaUITests/Pods-GiftPesa-GiftPesaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C38592C3F81A84B7432C790 /* Pods-GiftPesaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftPesaTests.debug.xcconfig"; path = "Target Support Files/Pods-GiftPesaTests/Pods-GiftPesaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E3A3E7E4C583193499E0D51 /* Pods-GiftPesaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftPesaTests.release.xcconfig"; path = "Target Support Files/Pods-GiftPesaTests/Pods-GiftPesaTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B7F24D46DE9A8DC84F1E298 /* Pods_GiftPesa_GiftPesaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiftPesa_GiftPesaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6757E3106710D9290AE87FDE /* Pods-GiftPesa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftPesa.debug.xcconfig"; path = "Target Support Files/Pods-GiftPesa/Pods-GiftPesa.debug.xcconfig"; sourceTree = "<group>"; };
 		6A08155F297738F50043D4A6 /* GiftPesa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftPesa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A081562297738F50043D4A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A081564297738F50043D4A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +92,27 @@
 		6A9A6F792977E44C00047163 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
 		6A9A6F7D2977E7A200047163 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		6A9A6F7F297801B100047163 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		6A9A6F82297809EF00047163 /* MerchantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantsView.swift; sourceTree = "<group>"; };
+		6A9A6F8429780A0500047163 /* MerchantsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MerchantsView.xib; sourceTree = "<group>"; };
+		6A9A6F8729780C6700047163 /* MerchantsSelectedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantsSelectedCell.swift; sourceTree = "<group>"; };
+		6A9A6F8829780C6700047163 /* MerchantsSelectedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MerchantsSelectedCell.xib; sourceTree = "<group>"; };
+		6A9A6F8B29780DD800047163 /* Merchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merchant.swift; sourceTree = "<group>"; };
+		6A9A6F8E2978160100047163 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		6A9A6F8F2978160100047163 /* APIServiceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceRequest.swift; sourceTree = "<group>"; };
+		6A9A6F902978160100047163 /* APIServiceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceResponse.swift; sourceTree = "<group>"; };
+		6AA1B551297B48A50017D19E /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
+		6AA1B555297B492D0017D19E /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		6AA1B556297B492D0017D19E /* ContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactCell.xib; sourceTree = "<group>"; };
+		6AA1B559297BC7090017D19E /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		6AE728252979931F00E211EB /* AddMerchantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMerchantCell.swift; sourceTree = "<group>"; };
+		6AE728262979931F00E211EB /* AddMerchantCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddMerchantCell.xib; sourceTree = "<group>"; };
+		6AE7282A29799CFA00E211EB /* MerchantsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantsViewModel.swift; sourceTree = "<group>"; };
+		6AE7282D29799DC500E211EB /* DataBind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBind.swift; sourceTree = "<group>"; };
+		6AE7282F297A77C100E211EB /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C8D3CE12CD957DAB83E1C0B4 /* Pods_GiftPesa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiftPesa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC24B3626D44FB1C7EA3743 /* Pods_GiftPesaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiftPesaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D432E1F897EA7E120258D628 /* Pods-GiftPesa-GiftPesaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftPesa-GiftPesaUITests.debug.xcconfig"; path = "Target Support Files/Pods-GiftPesa-GiftPesaUITests/Pods-GiftPesa-GiftPesaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F75FCBBA679EF39141255987 /* Pods-GiftPesa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftPesa.release.xcconfig"; path = "Target Support Files/Pods-GiftPesa/Pods-GiftPesa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5D7705FDDA5BDBB6AC09CA /* Pods_GiftPesa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632761FDF7EBA6E997E75F52 /* Pods_GiftPesaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +136,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				970A2BC650015F30FAC74B96 /* Pods_GiftPesa_GiftPesaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06DC4950EF2412408DB968B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6757E3106710D9290AE87FDE /* Pods-GiftPesa.debug.xcconfig */,
+				F75FCBBA679EF39141255987 /* Pods-GiftPesa.release.xcconfig */,
+				D432E1F897EA7E120258D628 /* Pods-GiftPesa-GiftPesaUITests.debug.xcconfig */,
+				1A5962AFA033AEFD1A630E6F /* Pods-GiftPesa-GiftPesaUITests.release.xcconfig */,
+				4C38592C3F81A84B7432C790 /* Pods-GiftPesaTests.debug.xcconfig */,
+				4E3A3E7E4C583193499E0D51 /* Pods-GiftPesaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		500620024D917CAF152FD8CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8D3CE12CD957DAB83E1C0B4 /* Pods_GiftPesa.framework */,
+				5B7F24D46DE9A8DC84F1E298 /* Pods_GiftPesa_GiftPesaUITests.framework */,
+				CAC24B3626D44FB1C7EA3743 /* Pods_GiftPesaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A081556297738F50043D4A6 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +173,8 @@
 				6A081578297738FA0043D4A6 /* GiftPesaTests */,
 				6A081582297738FA0043D4A6 /* GiftPesaUITests */,
 				6A081560297738F50043D4A6 /* Products */,
+				06DC4950EF2412408DB968B7 /* Pods */,
+				500620024D917CAF152FD8CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +191,11 @@
 		6A081561297738F50043D4A6 /* GiftPesa */ = {
 			isa = PBXGroup;
 			children = (
+				6AA1B553297B48E30017D19E /* Contacts */,
+				6AE7282C29799DB700E211EB /* Utils */,
+				6AE7282929799CD400E211EB /* ViewModels */,
+				6A9A6F8D297815E000047163 /* Network */,
+				6A9A6F812978097A00047163 /* SendGift */,
 				6A9A6F7C2977E77C00047163 /* Models */,
 				6A9A6F762977E3E800047163 /* Home */,
 				6A9A6F732977DC6400047163 /* CustomViews */,
@@ -153,6 +234,7 @@
 				6A9A6F6D29773F5800047163 /* HomeVC.swift */,
 				6A9A6F6F29773F7400047163 /* MerchantsVC.swift */,
 				6A9A6F7129773F9000047163 /* SendGiftVC.swift */,
+				6AA1B551297B48A50017D19E /* ContactsVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -162,6 +244,7 @@
 			children = (
 				6A9A6F742977DCBA00047163 /* RoundedCornerView.swift */,
 				6A9A6F7F297801B100047163 /* CustomTextField.swift */,
+				6AE7282F297A77C100E211EB /* CustomButton.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -187,8 +270,74 @@
 			isa = PBXGroup;
 			children = (
 				6A9A6F7D2977E7A200047163 /* Transaction.swift */,
+				6A9A6F8B29780DD800047163 /* Merchant.swift */,
+				6AA1B559297BC7090017D19E /* Contact.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		6A9A6F812978097A00047163 /* SendGift */ = {
+			isa = PBXGroup;
+			children = (
+				6A9A6F8629780C3900047163 /* Cells */,
+				6A9A6F82297809EF00047163 /* MerchantsView.swift */,
+				6A9A6F8429780A0500047163 /* MerchantsView.xib */,
+			);
+			path = SendGift;
+			sourceTree = "<group>";
+		};
+		6A9A6F8629780C3900047163 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6A9A6F8729780C6700047163 /* MerchantsSelectedCell.swift */,
+				6A9A6F8829780C6700047163 /* MerchantsSelectedCell.xib */,
+				6AE728252979931F00E211EB /* AddMerchantCell.swift */,
+				6AE728262979931F00E211EB /* AddMerchantCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6A9A6F8D297815E000047163 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6A9A6F8E2978160100047163 /* APIService.swift */,
+				6A9A6F8F2978160100047163 /* APIServiceRequest.swift */,
+				6A9A6F902978160100047163 /* APIServiceResponse.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6AA1B553297B48E30017D19E /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				6AA1B554297B48F00017D19E /* Cells */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		6AA1B554297B48F00017D19E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6AA1B555297B492D0017D19E /* ContactCell.swift */,
+				6AA1B556297B492D0017D19E /* ContactCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6AE7282929799CD400E211EB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6AE7282A29799CFA00E211EB /* MerchantsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6AE7282C29799DB700E211EB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6AE7282D29799DC500E211EB /* DataBind.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,9 +347,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A081589297738FA0043D4A6 /* Build configuration list for PBXNativeTarget "GiftPesa" */;
 			buildPhases = (
+				EBA1AFDA510F65827A056B76 /* [CP] Check Pods Manifest.lock */,
 				6A08155B297738F50043D4A6 /* Sources */,
 				6A08155C297738F50043D4A6 /* Frameworks */,
 				6A08155D297738F50043D4A6 /* Resources */,
+				38516C629528C67190DB5BB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +366,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A08158C297738FA0043D4A6 /* Build configuration list for PBXNativeTarget "GiftPesaTests" */;
 			buildPhases = (
+				2FF5F34FF56DF0CF69ED8BC1 /* [CP] Check Pods Manifest.lock */,
 				6A081571297738FA0043D4A6 /* Sources */,
 				6A081572297738FA0043D4A6 /* Frameworks */,
 				6A081573297738FA0043D4A6 /* Resources */,
@@ -233,9 +385,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A08158F297738FA0043D4A6 /* Build configuration list for PBXNativeTarget "GiftPesaUITests" */;
 			buildPhases = (
+				04C21B8AD7326AD45D071B6E /* [CP] Check Pods Manifest.lock */,
 				6A08157B297738FA0043D4A6 /* Sources */,
 				6A08157C297738FA0043D4A6 /* Frameworks */,
 				6A08157D297738FA0043D4A6 /* Resources */,
+				6D9973B5FB9109C76F341690 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,7 +425,7 @@
 				};
 			};
 			buildConfigurationList = 6A08155A297738F50043D4A6 /* Build configuration list for PBXProject "GiftPesa" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -297,7 +451,11 @@
 			files = (
 				6A08156F297738F90043D4A6 /* LaunchScreen.storyboard in Resources */,
 				6A08156C297738F90043D4A6 /* Assets.xcassets in Resources */,
+				6A9A6F8529780A0500047163 /* MerchantsView.xib in Resources */,
 				6A9A6F7B2977E44D00047163 /* TransactionsCell.xib in Resources */,
+				6AA1B558297B492D0017D19E /* ContactCell.xib in Resources */,
+				6A9A6F8A29780C6700047163 /* MerchantsSelectedCell.xib in Resources */,
+				6AE728282979931F00E211EB /* AddMerchantCell.xib in Resources */,
 				6A08156A297738F50043D4A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +476,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04C21B8AD7326AD45D071B6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiftPesa-GiftPesaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FF5F34FF56DF0CF69ED8BC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiftPesaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38516C629528C67190DB5BB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiftPesa/Pods-GiftPesa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiftPesa/Pods-GiftPesa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GiftPesa/Pods-GiftPesa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D9973B5FB9109C76F341690 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiftPesa-GiftPesaUITests/Pods-GiftPesa-GiftPesaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiftPesa-GiftPesaUITests/Pods-GiftPesa-GiftPesaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GiftPesa-GiftPesaUITests/Pods-GiftPesa-GiftPesaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA1AFDA510F65827A056B76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiftPesa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A08155B297738F50043D4A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -327,12 +588,25 @@
 				6A9A6F6E29773F5800047163 /* HomeVC.swift in Sources */,
 				6A9A6F7A2977E44C00047163 /* TransactionsCell.swift in Sources */,
 				6A9A6F7229773F9000047163 /* SendGiftVC.swift in Sources */,
+				6AA1B55A297BC7090017D19E /* Contact.swift in Sources */,
+				6AE72830297A77C100E211EB /* CustomButton.swift in Sources */,
+				6AA1B552297B48A50017D19E /* ContactsVC.swift in Sources */,
+				6AA1B557297B492D0017D19E /* ContactCell.swift in Sources */,
 				6A9A6F80297801B100047163 /* CustomTextField.swift in Sources */,
+				6AE7282E29799DC500E211EB /* DataBind.swift in Sources */,
 				6A081563297738F50043D4A6 /* AppDelegate.swift in Sources */,
 				6A081565297738F50043D4A6 /* SceneDelegate.swift in Sources */,
 				6A9A6F7029773F7400047163 /* MerchantsVC.swift in Sources */,
+				6AE7282B29799CFA00E211EB /* MerchantsViewModel.swift in Sources */,
+				6A9A6F912978160200047163 /* APIService.swift in Sources */,
+				6A9A6F8929780C6700047163 /* MerchantsSelectedCell.swift in Sources */,
+				6A9A6F8C29780DD800047163 /* Merchant.swift in Sources */,
 				6A9A6F752977DCBA00047163 /* RoundedCornerView.swift in Sources */,
+				6AE728272979931F00E211EB /* AddMerchantCell.swift in Sources */,
+				6A9A6F83297809EF00047163 /* MerchantsView.swift in Sources */,
+				6A9A6F932978160200047163 /* APIServiceResponse.swift in Sources */,
 				6A9A6F7E2977E7A200047163 /* Transaction.swift in Sources */,
+				6A9A6F922978160200047163 /* APIServiceRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +614,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A53A474297AADAB002EF813 /* AppDelegate.swift in Sources */,
 				6A08157A297738FA0043D4A6 /* GiftPesaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +623,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A53A475297AADAC002EF813 /* AppDelegate.swift in Sources */,
 				6A081586297738FA0043D4A6 /* GiftPesaUITestsLaunchTests.swift in Sources */,
 				6A081584297738FA0043D4A6 /* GiftPesaUITests.swift in Sources */,
 			);
@@ -504,11 +780,13 @@
 		};
 		6A08158A297738FA0043D4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6757E3106710D9290AE87FDE /* Pods-GiftPesa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69JDXH5JHL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GiftPesa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -516,6 +794,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,11 +810,13 @@
 		};
 		6A08158B297738FA0043D4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F75FCBBA679EF39141255987 /* Pods-GiftPesa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69JDXH5JHL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GiftPesa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -543,6 +824,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -558,6 +840,7 @@
 		};
 		6A08158D297738FA0043D4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C38592C3F81A84B7432C790 /* Pods-GiftPesaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -577,6 +860,7 @@
 		};
 		6A08158E297738FA0043D4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3A3E7E4C583193499E0D51 /* Pods-GiftPesaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -596,6 +880,7 @@
 		};
 		6A081590297738FA0043D4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D432E1F897EA7E120258D628 /* Pods-GiftPesa-GiftPesaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -613,6 +898,7 @@
 		};
 		6A081591297738FA0043D4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5962AFA033AEFD1A630E6F /* Pods-GiftPesa-GiftPesaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
