@@ -21,39 +21,7 @@ public class MerchantsViewModel  {
     init(){
     
     }
-    
-    
-    // GET Merchants
-    public func getMerchants(){
 
-        let merchantsListRequest = APIServiceRequest(method: .get, path: merchantsListPath, queryItems: [:])
-        
-//        apiService.APIRequest(request: merchantsListRequest, apiServiceTask: { [weak self] (result) in
-//            guard let self = self else {
-//                return
-//            }
-//            switch result {
-//            case .success(let response):
-//                if let response = try? response.decode(to: MerchantData.self) {
-//                   
-//                    DispatchQueue.main.async {
-//                        self.merchantsData = response.body
-//                        if let merchantsResult = self.merchantsListData.result {
-//                            if let message = merchantsResult.message {
-//                                self.merchantsListData = merchantsList
-//                            }
-//                        }
-//                        
-//                    }
-//                    
-//                } else {
-//                    print(Error.decodingError)
-//                }
-//            case .failure:
-//                print(Error.networkError)
-//            }
-//        })
-    }
 
 }
 
