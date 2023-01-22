@@ -6,6 +6,8 @@
 //
 
 import Foundation
+
+
 struct Transaction {
     var name: String?
     var amount: String?
